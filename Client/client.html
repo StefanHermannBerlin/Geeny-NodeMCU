@@ -1,0 +1,29 @@
+<html>
+
+<head>
+  <title>Geeny Workshop - Paho MQTT Client</title>
+  <!-- Source Paho MQTT Client-->
+  <script src="assets/js/paho-mqtt.js"></script>
+
+  <!-- Utility Javascript -->
+  <script>
+      myDeviceID="12345";           // ID of the devices
+      brokerIp="192.168.0.101";     // IP of the MQTT broker
+  </script>
+    
+  <script src="assets/js/example.js"></script>
+  <link href="assets/css/font-awesome.min.css" rel="stylesheet"/>
+  <link rel="stylesheet" href="assets/css/styles.css">
+    
+</head>
+    
+<body>    
+    <div id="logo"><img src="assets/img/white-logo-tablet.svg" alt="Geeny"></div>
+    <div id="wrapper">
+        <div id="temparatureWrapper"><i class="fa fa-thermometer-half"></i><p class="values" id="theTemparature">0</p><p class="units">&nbsp;°C</p></div>
+        <div id="humidityWrapper"><i class="fa fa-shower"></i><p class="values" id="theHumidity">0</p><p class="units">&nbsp;%</p></div>
+        <div class="clearfix"></div>
+    </div>
+</body>
+
+</html>
