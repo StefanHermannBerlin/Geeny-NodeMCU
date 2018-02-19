@@ -6,7 +6,7 @@
 
 // Replace these with your WiFi network settings
 const char* ssid = "Telefonica NEXT Guest";                       // replace this with your WiFi network name
-const char* password = "geenyguest";                              // replace this with your WiFi network password
+const char* password = "...";                              // replace this with your WiFi network password
 const char* myThingID = "5a680c00-fd75-4dc0-9f5f-b01cab8aab43";   // replace with your device ID
 
 #define DHTPIN D2                                                 // the pin, the DHT22 is connected to

@@ -4,7 +4,7 @@
 
 // Replace these with your WiFi network settings
 const char* ssid = "Telefonica NEXT Guest";                       // replace this with your WiFi network name
-const char* password = "geenyguest";                              // replace this with your WiFi network password
+const char* password = "...";                              // replace this with your WiFi network password
 
 #define DHTPIN D2                                                 // the pin, the DHT22 is connected to
 #define DHTTYPE DHT22                                             // the type of the humidity and temparature sensor (DHT22)
