@@ -14,13 +14,13 @@ Material:
 We will make an LED blink.
 
 ### Setup
-- download the [Arduino software](https://www.arduino.cc/en/Main/Software)
-– if your NodeMCU is using the CP210x Chip from Silabs, download and install the [USB2UART driver](https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers) (you can check, by reading the print on the Chip right behind the USB connector on your NodeMCU)
-- in the Arduino IDE go to files and click on the preference
-- copy this code *http://arduino.esp8266.com/stable/package_esp8266com_index.json* in the *Additional boards Manager* field
-- go to *Tools>Boards Manager...* and enter *esp8266* in the search field
-- install the esp8266 by esp8266 community library
-- connect your NodeMCU and select it in the *Tools>Port* menue
+- Install Arduino software from www.arduino.cc
+- Open the Arduino software and go to files and click on the preference in the Arduino IDE
+- Copy the below code in the Additional boards Manager: http://arduino.esp8266.com/stable/package_esp8266com_index.json
+- In the Arduino Software go to Tools>Boards>Board Manager
+- Navigate to esp8266 by esp8266 community and install the software for Arduino
+- Select now from Tools>Board the NodeMCU 1.0 (ESP12E module)
+- Install USB driver from software collection folder USB2UART-driver (or https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers)
 
 ### Code
 - in the Arduino IDE open the example NodeMCU-Blink from this repository
@@ -45,5 +45,10 @@ We will make an LED blink.
 
 
 ## Part 3 – Connect to Geeny
+
+
+----
+openssl rsa -outform der -in thing.key -out thing-key.der
+openssl x509 -outform der -in thing.crt -out thing-crt.der
 
 
