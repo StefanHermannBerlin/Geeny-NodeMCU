@@ -1,1 +1,0 @@
-copy this folders in your arduino libraries folder

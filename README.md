@@ -30,21 +30,27 @@ In this tutorial you will learn, how to connect the NodeMCU to the Geeny platfor
 1. Open *Files>Examples>Basics>Blink*
 2. Go to *Tools>Port* and select (usually) the last entry
 3. Upload the code to the NodeMCU: *Sketch>Upload* or click the upload button in the menu
+
 ![alt text](https://github.com/StefanHermannBerlin/Geeny-NodeMCU/blob/master/assets/upload.png)
+
 4. The LED should blink now
 
 ## Part 1.2
 
-1. Now change the circuit to this one
+1. Now change the circuit
+
 ![Circuit: Fritzing diagram](https://github.com/StefanHermannBerlin/Geeny-NodeMCU/blob/master/assets/blink-fritzing.png)
 (Diagram made with Fritzing)
+
 2. Change the sketch or open the file *1_blink.ino* in the Arduino IDE
 3. Upload the code to the NodeMCU
 
 ## Part 2 – DHT22 Temperature and Humidity sensor 
 
 1. Change the circuit to this one
+
 ![Circuit: Fritzing diagram](https://github.com/StefanHermannBerlin/Geeny-NodeMCU/blob/master/assets/dht22-fritzing.png)
+
 (Diagram made with Fritzing)
 2. Open the Arduino sketch *2_DHT22.ino*
 3. After uploading the sketch, open the Serial Monitor
