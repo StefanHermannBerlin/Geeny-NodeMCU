@@ -30,7 +30,7 @@ Material:
 1. Open *Files>Examples>Basics>Blink*
 2. Go to *Tools>Port* and select (usually) the last entry
 3. Upload the code to the NodeMCU: *Sketch>Upload* or click the upload button in the menu
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/ico
+![alt text](https://github.com/StefanHermannBerlin/Geeny-NodeMCU/blob/master/assets/upload.png)
 
 
 
