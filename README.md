@@ -36,7 +36,7 @@ In this tutorial you will learn, how to connect the NodeMCU to the Geeny platfor
 ## Part 1.2
 
 1. Now change the circuit to this one
-![Circuit: Fritzing diagram](https://github.com/StefanHermannBerlin/Geeny-NodeMCU/blob/master/assets/blink-fritzing.png)
+[Circuit: Fritzing diagram](https://github.com/StefanHermannBerlin/Geeny-NodeMCU/blob/master/assets/blink-fritzing.png)
 (Diagram made with Fritzing)
 2. Change the sketch or open the file *1_blink.ino* in the Arduino IDE
 3. Upload the code to the NodeMCU
