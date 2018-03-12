@@ -1,6 +1,12 @@
 # NodeMCU on Geeny
 
-In this tutorial you will learn, how to connect the NodeMCU to the Geeny platform. 
+
+
+
+In this tutorial you will learn, how to connect the NodeMCU to the Geeny platform.
+
+
+
 
 Material:
 - NodeMCU
@@ -9,18 +15,24 @@ Material:
 - DHT22 sensor
 - Breadboard and jumper wires
 
+## Setup
+1. Install Arduino IDE from [Arduino.cc](http://www.arduino.cc)
+2. Go to *Files>Preference* (Mac: *Arduino>Preferences*) in the Arduino IDE
+3. Copy the below link in the Additional boards Manager field: *http://arduino.esp8266.com/stable/package_esp8266com_index.json*
+4. Go to *Tools>Boards>Board Manager*
+5. Search for *esp8266* (by esp8266 community) and install it
+6. Select from *Tools>Board* the NodeMCU 1.0 (ESP12E module)
+7. Install USB driver from [Silabs](https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers)
+8. Copy the content of the *Arduino Sketchfolder* in this repository into your Arduino Sketchfolder 
+
 ## Part 1 – Blink
 
-We will make an LED blink.
+1. Open *Files>Examples>Basics>Blink*
+2. Go to *Tools>Port* and select (usually) the last entry
+3. Upload the code to the NodeMCU: *Sketch>Upload* or click the upload button in the menu
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/ico
 
-### Setup
-- Install Arduino software from www.arduino.cc
-- Open the Arduino software and go to files and click on the preference in the Arduino IDE
-- Copy the below code in the Additional boards Manager: http://arduino.esp8266.com/stable/package_esp8266com_index.json
-- In the Arduino Software go to Tools>Boards>Board Manager
-- Navigate to esp8266 by esp8266 community and install the software for Arduino
-- Select now from Tools>Board the NodeMCU 1.0 (ESP12E module)
-- Install USB driver from software collection folder USB2UART-driver (or https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers)
+
 
 ### Code
 - in the Arduino IDE open the example NodeMCU-Blink from this repository
